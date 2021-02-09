@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1847D341245811D3006EDFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847D340245811D3006EDFA7 /* AppDelegate.swift */; };
+		1847D343245811D3006EDFA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847D342245811D3006EDFA7 /* SceneDelegate.swift */; };
+		1847D345245811D3006EDFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847D344245811D3006EDFA7 /* ViewController.swift */; };
+		1847D348245811D3006EDFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1847D346245811D3006EDFA7 /* Main.storyboard */; };
+		1847D34A245811D6006EDFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1847D349245811D6006EDFA7 /* Assets.xcassets */; };
+		1847D34D245811D6006EDFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1847D34B245811D6006EDFA7 /* LaunchScreen.storyboard */; };
+		1847D358245811D6006EDFA7 /* GravitoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847D357245811D6006EDFA7 /* GravitoAppTests.swift */; };
+		1847D363245811D6006EDFA7 /* GravitoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847D362245811D6006EDFA7 /* GravitoAppUITests.swift */; };
+		1847D37124582A47006EDFA7 /* webview.html in Resources */ = {isa = PBXBuildFile; fileRef = 1847D37024582A47006EDFA7 /* webview.html */; };
+		8B87EC5C8DF591A2C827D5D8 /* Pods_GravitoApp_GravitoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1716AE9114CD7E485F21738F /* Pods_GravitoApp_GravitoAppUITests.framework */; };
+		B9837AFB2202635A2977F83F /* Pods_GravitoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9961D9E82802B8766BACCC4E /* Pods_GravitoAppTests.framework */; };
+		F52D904FC459F1292010D823 /* Pods_GravitoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FD30C2A31802D3FC41A61D /* Pods_GravitoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1847D354245811D6006EDFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1847D335245811D3006EDFA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1847D33C245811D3006EDFA7;
+			remoteInfo = GravitoApp;
+		};
+		1847D35F245811D6006EDFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1847D335245811D3006EDFA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1847D33C245811D3006EDFA7;
+			remoteInfo = GravitoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C9BE60290D1E47C9C88DB78 /* Pods-GravitoApp-GravitoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitoApp-GravitoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1716AE9114CD7E485F21738F /* Pods_GravitoApp_GravitoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitoApp_GravitoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847D33D245811D3006EDFA7 /* GravitoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravitoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847D340245811D3006EDFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1847D342245811D3006EDFA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1847D344245811D3006EDFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1847D347245811D3006EDFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1847D349245811D6006EDFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1847D34C245811D6006EDFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1847D34E245811D6006EDFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847D353245811D6006EDFA7 /* GravitoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravitoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847D357245811D6006EDFA7 /* GravitoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitoAppTests.swift; sourceTree = "<group>"; };
+		1847D359245811D6006EDFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847D35E245811D6006EDFA7 /* GravitoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravitoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847D362245811D6006EDFA7 /* GravitoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitoAppUITests.swift; sourceTree = "<group>"; };
+		1847D364245811D6006EDFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847D37024582A47006EDFA7 /* webview.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webview.html; sourceTree = "<group>"; };
+		30A6496A4DD6B2558A140A01 /* Pods-GravitoApp-GravitoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitoApp-GravitoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30B1DB7A9AB23DB427F07198 /* Pods-GravitoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitoApp.debug.xcconfig"; path = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		43004F44B20C9465C4408BF7 /* Pods-GravitoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitoAppTests.release.xcconfig"; path = "Target Support Files/Pods-GravitoAppTests/Pods-GravitoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		86FD30C2A31802D3FC41A61D /* Pods_GravitoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9961D9E82802B8766BACCC4E /* Pods_GravitoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCEA59B06D9DE2ED6654816 /* Pods-GravitoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GravitoAppTests/Pods-GravitoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB86D7C5CC4FCA6C9F28DF0B /* Pods-GravitoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitoApp.release.xcconfig"; path = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1847D33A245811D3006EDFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D904FC459F1292010D823 /* Pods_GravitoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1847D350245811D6006EDFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9837AFB2202635A2977F83F /* Pods_GravitoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1847D35B245811D6006EDFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B87EC5C8DF591A2C827D5D8 /* Pods_GravitoApp_GravitoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1847D334245811D3006EDFA7 = {
+			isa = PBXGroup;
+			children = (
+				1847D33F245811D3006EDFA7 /* GravitoApp */,
+				1847D356245811D6006EDFA7 /* GravitoAppTests */,
+				1847D361245811D6006EDFA7 /* GravitoAppUITests */,
+				1847D33E245811D3006EDFA7 /* Products */,
+				1A9B32F98FFF788A5142DD93 /* Pods */,
+				D96CB51AEA3C7EC9E194D111 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1847D33E245811D3006EDFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1847D33D245811D3006EDFA7 /* GravitoApp.app */,
+				1847D353245811D6006EDFA7 /* GravitoAppTests.xctest */,
+				1847D35E245811D6006EDFA7 /* GravitoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1847D33F245811D3006EDFA7 /* GravitoApp */ = {
+			isa = PBXGroup;
+			children = (
+				1847D340245811D3006EDFA7 /* AppDelegate.swift */,
+				1847D342245811D3006EDFA7 /* SceneDelegate.swift */,
+				1847D344245811D3006EDFA7 /* ViewController.swift */,
+				1847D346245811D3006EDFA7 /* Main.storyboard */,
+				1847D349245811D6006EDFA7 /* Assets.xcassets */,
+				1847D34B245811D6006EDFA7 /* LaunchScreen.storyboard */,
+				1847D34E245811D6006EDFA7 /* Info.plist */,
+				1847D37024582A47006EDFA7 /* webview.html */,
+			);
+			path = GravitoApp;
+			sourceTree = "<group>";
+		};
+		1847D356245811D6006EDFA7 /* GravitoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1847D357245811D6006EDFA7 /* GravitoAppTests.swift */,
+				1847D359245811D6006EDFA7 /* Info.plist */,
+			);
+			path = GravitoAppTests;
+			sourceTree = "<group>";
+		};
+		1847D361245811D6006EDFA7 /* GravitoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1847D362245811D6006EDFA7 /* GravitoAppUITests.swift */,
+				1847D364245811D6006EDFA7 /* Info.plist */,
+			);
+			path = GravitoAppUITests;
+			sourceTree = "<group>";
+		};
+		1A9B32F98FFF788A5142DD93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B1DB7A9AB23DB427F07198 /* Pods-GravitoApp.debug.xcconfig */,
+				BB86D7C5CC4FCA6C9F28DF0B /* Pods-GravitoApp.release.xcconfig */,
+				0C9BE60290D1E47C9C88DB78 /* Pods-GravitoApp-GravitoAppUITests.debug.xcconfig */,
+				30A6496A4DD6B2558A140A01 /* Pods-GravitoApp-GravitoAppUITests.release.xcconfig */,
+				AFCEA59B06D9DE2ED6654816 /* Pods-GravitoAppTests.debug.xcconfig */,
+				43004F44B20C9465C4408BF7 /* Pods-GravitoAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D96CB51AEA3C7EC9E194D111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86FD30C2A31802D3FC41A61D /* Pods_GravitoApp.framework */,
+				1716AE9114CD7E485F21738F /* Pods_GravitoApp_GravitoAppUITests.framework */,
+				9961D9E82802B8766BACCC4E /* Pods_GravitoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1847D33C245811D3006EDFA7 /* GravitoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1847D367245811D6006EDFA7 /* Build configuration list for PBXNativeTarget "GravitoApp" */;
+			buildPhases = (
+				9A15ADB3DAF69FD13D67DDDB /* [CP] Check Pods Manifest.lock */,
+				1847D339245811D3006EDFA7 /* Sources */,
+				1847D33A245811D3006EDFA7 /* Frameworks */,
+				1847D33B245811D3006EDFA7 /* Resources */,
+				4365F55E1DB6AA519636D102 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravitoApp;
+			productName = GravitoApp;
+			productReference = 1847D33D245811D3006EDFA7 /* GravitoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1847D352245811D6006EDFA7 /* GravitoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1847D36A245811D6006EDFA7 /* Build configuration list for PBXNativeTarget "GravitoAppTests" */;
+			buildPhases = (
+				0DA2002F02138D1FC795ED68 /* [CP] Check Pods Manifest.lock */,
+				1847D34F245811D6006EDFA7 /* Sources */,
+				1847D350245811D6006EDFA7 /* Frameworks */,
+				1847D351245811D6006EDFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1847D355245811D6006EDFA7 /* PBXTargetDependency */,
+			);
+			name = GravitoAppTests;
+			productName = GravitoAppTests;
+			productReference = 1847D353245811D6006EDFA7 /* GravitoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1847D35D245811D6006EDFA7 /* GravitoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1847D36D245811D6006EDFA7 /* Build configuration list for PBXNativeTarget "GravitoAppUITests" */;
+			buildPhases = (
+				BBBC4A0D829C075D10ADB5E7 /* [CP] Check Pods Manifest.lock */,
+				1847D35A245811D6006EDFA7 /* Sources */,
+				1847D35B245811D6006EDFA7 /* Frameworks */,
+				1847D35C245811D6006EDFA7 /* Resources */,
+				8A1B5C2B12B49E2FFD88F410 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1847D360245811D6006EDFA7 /* PBXTargetDependency */,
+			);
+			name = GravitoAppUITests;
+			productName = GravitoAppUITests;
+			productReference = 1847D35E245811D6006EDFA7 /* GravitoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1847D335245811D3006EDFA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1847D33C245811D3006EDFA7 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					1847D352245811D6006EDFA7 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1847D33C245811D3006EDFA7;
+					};
+					1847D35D245811D6006EDFA7 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1847D33C245811D3006EDFA7;
+					};
+				};
+			};
+			buildConfigurationList = 1847D338245811D3006EDFA7 /* Build configuration list for PBXProject "GravitoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1847D334245811D3006EDFA7;
+			productRefGroup = 1847D33E245811D3006EDFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1847D33C245811D3006EDFA7 /* GravitoApp */,
+				1847D352245811D6006EDFA7 /* GravitoAppTests */,
+				1847D35D245811D6006EDFA7 /* GravitoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1847D33B245811D3006EDFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847D37124582A47006EDFA7 /* webview.html in Resources */,
+				1847D34D245811D6006EDFA7 /* LaunchScreen.storyboard in Resources */,
+				1847D34A245811D6006EDFA7 /* Assets.xcassets in Resources */,
+				1847D348245811D3006EDFA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1847D351245811D6006EDFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1847D35C245811D6006EDFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DA2002F02138D1FC795ED68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4365F55E1DB6AA519636D102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravitoApp/Pods-GravitoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravitoApp/Pods-GravitoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GravitoApp/Pods-GravitoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1B5C2B12B49E2FFD88F410 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A15ADB3DAF69FD13D67DDDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBBC4A0D829C075D10ADB5E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitoApp-GravitoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1847D339245811D3006EDFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847D345245811D3006EDFA7 /* ViewController.swift in Sources */,
+				1847D341245811D3006EDFA7 /* AppDelegate.swift in Sources */,
+				1847D343245811D3006EDFA7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1847D34F245811D6006EDFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847D358245811D6006EDFA7 /* GravitoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1847D35A245811D6006EDFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847D363245811D6006EDFA7 /* GravitoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1847D355245811D6006EDFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1847D33C245811D3006EDFA7 /* GravitoApp */;
+			targetProxy = 1847D354245811D6006EDFA7 /* PBXContainerItemProxy */;
+		};
+		1847D360245811D6006EDFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1847D33C245811D3006EDFA7 /* GravitoApp */;
+			targetProxy = 1847D35F245811D6006EDFA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1847D346245811D3006EDFA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1847D347245811D3006EDFA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1847D34B245811D6006EDFA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1847D34C245811D6006EDFA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1847D365245811D6006EDFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1847D366245811D6006EDFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1847D368245811D6006EDFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B1DB7A9AB23DB427F07198 /* Pods-GravitoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7RTNQ5453;
+				INFOPLIST_FILE = GravitoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.GravitoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1847D369245811D6006EDFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB86D7C5CC4FCA6C9F28DF0B /* Pods-GravitoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7RTNQ5453;
+				INFOPLIST_FILE = GravitoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.GravitoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1847D36B245811D6006EDFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCEA59B06D9DE2ED6654816 /* Pods-GravitoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.GravitoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravitoApp.app/GravitoApp";
+			};
+			name = Debug;
+		};
+		1847D36C245811D6006EDFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43004F44B20C9465C4408BF7 /* Pods-GravitoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.GravitoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravitoApp.app/GravitoApp";
+			};
+			name = Release;
+		};
+		1847D36E245811D6006EDFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9BE60290D1E47C9C88DB78 /* Pods-GravitoApp-GravitoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.GravitoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GravitoApp;
+			};
+			name = Debug;
+		};
+		1847D36F245811D6006EDFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A6496A4DD6B2558A140A01 /* Pods-GravitoApp-GravitoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.GravitoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GravitoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1847D338245811D3006EDFA7 /* Build configuration list for PBXProject "GravitoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1847D365245811D6006EDFA7 /* Debug */,
+				1847D366245811D6006EDFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1847D367245811D6006EDFA7 /* Build configuration list for PBXNativeTarget "GravitoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1847D368245811D6006EDFA7 /* Debug */,
+				1847D369245811D6006EDFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1847D36A245811D6006EDFA7 /* Build configuration list for PBXNativeTarget "GravitoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1847D36B245811D6006EDFA7 /* Debug */,
+				1847D36C245811D6006EDFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1847D36D245811D6006EDFA7 /* Build configuration list for PBXNativeTarget "GravitoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1847D36E245811D6006EDFA7 /* Debug */,
+				1847D36F245811D6006EDFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1847D335245811D3006EDFA7 /* Project object */;
+}
