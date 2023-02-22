@@ -3,46 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		089C7B5CE24BC9B389F0FADE76AE81B1 /* Pods-GravitoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C430FBE930F99319426AC717AE8C4E /* Pods-GravitoApp-dummy.m */; };
-		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		202D92E250E637EABC77BF032AE0077A /* Pods-GravitoAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D4102E8FE876D7152C7C1892664EBA /* Pods-GravitoAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */; };
-		464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		787E34215666A2C5D530B18313BE247D /* Pods-GravitoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6E8BFB1F643E1ABA6CFFC97ADAE36A /* Pods-GravitoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F5AC097E91AA4E439F4E9DD4075569 /* Pods-GravitoApp-GravitoAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2D28B3E822EDBA929E2E470D91C2C9 /* Pods-GravitoApp-GravitoAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */; };
-		8386016463D38AE3841DC5F84A3B79C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B4C1499FA284E2F98C456C6F9B9C759F /* Pods-GravitoAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF93A97B0F4070613229102DC2400C /* Pods-GravitoAppTests-dummy.m */; };
-		C70DF26A227E1ACB69A2CD152EC9C524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E2F78CAF0CAEEA608858EA6ACCD52298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		ED92404CBDFFEC46CD78503CCDCF61F9 /* Pods-GravitoApp-GravitoAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22134784EF5362580C0ED33A3D0CA0 /* Pods-GravitoApp-GravitoAppUITests-dummy.m */; };
+		0E11AAADECC12A331B798B7186B2F8F9 /* Pods-GravitoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C430FBE930F99319426AC717AE8C4E /* Pods-GravitoApp-dummy.m */; };
+		1BAF1EBEE3BD44909A5889611A9EF8D7 /* Pods-GravitoAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF93A97B0F4070613229102DC2400C /* Pods-GravitoAppTests-dummy.m */; };
+		325CCDB295FFA016638075B5D2CEDD5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5FA526557719FDBE81B1974B113CF600 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */; };
+		70A997A3F5E99DA39972D04CB16AD494 /* Pods-GravitoApp-GravitoAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22134784EF5362580C0ED33A3D0CA0 /* Pods-GravitoApp-GravitoAppUITests-dummy.m */; };
+		A115142039C23F91827E6961CC479F05 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CEE8324948497036C4E123B21CBC59 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */; };
+		A8A6802B52D144FD7E4CF808D1A4205C /* Pods-GravitoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6E8BFB1F643E1ABA6CFFC97ADAE36A /* Pods-GravitoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B301A0FF446042324F9FA0EF264E657B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B65ED1ED18FDBAF5DB9758EA20AC4C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C159890A5960D8A5821DB955B2FF82A8 /* Pods-GravitoAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D4102E8FE876D7152C7C1892664EBA /* Pods-GravitoAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB33B531A6CDF343E5FBCE8BDDA686E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DC6490B6392FA44A151531457E276D4E /* Pods-GravitoApp-GravitoAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2D28B3E822EDBA929E2E470D91C2C9 /* Pods-GravitoApp-GravitoAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F02F1C610C085634BC364688976B6E1 /* PBXContainerItemProxy */ = {
+		5F7CB1AFD9CC5527DFEB30245D6A57FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		70FA05F5F9E4B7E0277A209DE70FFE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		DF603D83E17B94FB1EDB5D9C79D0487E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 958A4DAC0514354831F599DA3C08FC26;
 			remoteInfo = "Pods-GravitoApp";
-		};
-		BE36C5CF8820CCFA539E2714D8C4A13D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
-		};
-		C727B611095EB4B38DEBC4488F6CD4C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,7 +51,6 @@
 		1AD7783BB2BF2E2749622BA3B3B633E0 /* Pods-GravitoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GravitoApp.modulemap"; sourceTree = "<group>"; };
 		2ABF10892E1E778CF88E55B5A3A49C51 /* Pods-GravitoApp-GravitoAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GravitoApp-GravitoAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2F80C59B071DD964823F1865053CD47C /* Pods-GravitoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravitoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34D4102E8FE876D7152C7C1892664EBA /* Pods-GravitoAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GravitoAppTests-umbrella.h"; sourceTree = "<group>"; };
 		36BDC351956690424A65F17709C15353 /* Pods-GravitoApp-GravitoAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GravitoApp-GravitoAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		397E20983E1877FB4493CD09CFBCF304 /* Pods-GravitoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GravitoApp-Info.plist"; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		5ABE65110A209D38D21F103D8E370433 /* Pods-GravitoApp-GravitoAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GravitoApp-GravitoAppUITests.modulemap"; sourceTree = "<group>"; };
 		60A5446E3184AC9044FD67AD5C6955CF /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
 		6A354C76B80E89FBF808D97B0B17C43C /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
 		90AD08631B87C6E633E3E39D4D3C6FAB /* Pods-GravitoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GravitoApp-frameworks.sh"; sourceTree = "<group>"; };
 		96102EF1F28572805DD6248F7D12B733 /* Pods-GravitoAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GravitoAppTests.modulemap"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		A9C430FBE930F99319426AC717AE8C4E /* Pods-GravitoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GravitoApp-dummy.m"; sourceTree = "<group>"; };
 		AA6E8BFB1F643E1ABA6CFFC97ADAE36A /* Pods-GravitoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GravitoApp-umbrella.h"; sourceTree = "<group>"; };
 		AED2E056FB570E8022CA455981A50A56 /* Pods-GravitoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravitoAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		AF6692B5B1A64FE565F62B7F19E6C33C /* Pods_GravitoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GravitoAppTests.framework; path = "Pods-GravitoAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6692B5B1A64FE565F62B7F19E6C33C /* Pods-GravitoAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GravitoAppTests"; path = Pods_GravitoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD292142BA3A82EF5AECC5F5FD46FA87 /* Pods-GravitoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravitoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C7AF93A97B0F4070613229102DC2400C /* Pods-GravitoAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GravitoAppTests-dummy.m"; sourceTree = "<group>"; };
 		CF2D28B3E822EDBA929E2E470D91C2C9 /* Pods-GravitoApp-GravitoAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GravitoApp-GravitoAppUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -81,61 +81,50 @@
 		D99EB6BABE11A94DFFF9E0959A299989 /* Pods-GravitoApp-GravitoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravitoApp-GravitoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD22134784EF5362580C0ED33A3D0CA0 /* Pods-GravitoApp-GravitoAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GravitoApp-GravitoAppUITests-dummy.m"; sourceTree = "<group>"; };
 		E1995E3E40F0D502F0F7AEFF79FDEFE8 /* Pods-GravitoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravitoApp.release.xcconfig"; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A0FD389D173F56FBDB8A357093095A /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		EC8C4813E7B7FE721B3D7DA430B4932A /* Pods_GravitoApp_GravitoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GravitoApp_GravitoAppUITests.framework; path = "Pods-GravitoApp-GravitoAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED02F6FE67444BEE653BFD81F2166BB1 /* Pods_GravitoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GravitoApp.framework; path = "Pods-GravitoApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C4813E7B7FE721B3D7DA430B4932A /* Pods-GravitoApp-GravitoAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GravitoApp-GravitoAppUITests"; path = Pods_GravitoApp_GravitoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED02F6FE67444BEE653BFD81F2166BB1 /* Pods-GravitoApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GravitoApp"; path = Pods_GravitoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
 		FA7654AA02AC57FC6E2E80340C0AEA6E /* Pods-GravitoApp-GravitoAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GravitoApp-GravitoAppUITests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A29F38D9CC1ACB80DAFD719B088336E /* Frameworks */ = {
+		34AA42E7F173712E120A011FC6F1A771 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70DF26A227E1ACB69A2CD152EC9C524 /* Foundation.framework in Frameworks */,
+				B65ED1ED18FDBAF5DB9758EA20AC4C90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5435208FDE7997F97375E833FC60402B /* Frameworks */ = {
+		3977393A21672F0FBC6F1193739E0D15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8386016463D38AE3841DC5F84A3B79C3 /* Foundation.framework in Frameworks */,
+				325CCDB295FFA016638075B5D2CEDD5C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+		9AD323E7F555CBE5C56A65B698CC3242 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */,
+				CB33B531A6CDF343E5FBCE8BDDA686E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C956448A3A7BD978066B08358235099F /* Frameworks */ = {
+		A908EA0A0267636DE130A5A050631029 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F78CAF0CAEEA608858EA6ACCD52298 /* Foundation.framework in Frameworks */,
+				B301A0FF446042324F9FA0EF264E657B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F5A43DAAFCEB9E13764A8258C18ABB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ED02F6FE67444BEE653BFD81F2166BB1 /* Pods_GravitoApp.framework */,
-				EC8C4813E7B7FE721B3D7DA430B4932A /* Pods_GravitoApp_GravitoAppUITests.framework */,
-				AF6692B5B1A64FE565F62B7F19E6C33C /* Pods_GravitoAppTests.framework */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		077D668B1B64CB307EC6DCDCBE807D99 /* Pods-GravitoApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,10 +170,10 @@
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -195,7 +184,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2C6A71D462ED46C2A7F74D962134DC74 /* Pods */,
-				02F5A43DAAFCEB9E13764A8258C18ABB /* Products */,
+				F5C34484A7527718AC74379F85A885ED /* Products */,
 				3A84973FECED2483561D99649E3046E1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -203,7 +192,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,38 +245,49 @@
 			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
+		F5C34484A7527718AC74379F85A885ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED02F6FE67444BEE653BFD81F2166BB1 /* Pods-GravitoApp */,
+				EC8C4813E7B7FE721B3D7DA430B4932A /* Pods-GravitoApp-GravitoAppUITests */,
+				AF6692B5B1A64FE565F62B7F19E6C33C /* Pods-GravitoAppTests */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		09976D0591BF86A16BA060128F57475F /* Headers */ = {
+		41145698F7DF35B05606D01197454CFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202D92E250E637EABC77BF032AE0077A /* Pods-GravitoAppTests-umbrella.h in Headers */,
+				A115142039C23F91827E6961CC479F05 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+		5FFA1E7AC74845025737A3248D50B9EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+				C159890A5960D8A5821DB955B2FF82A8 /* Pods-GravitoAppTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A023A204A19F0A89B191D750DF88FAB /* Headers */ = {
+		7EAEE8440C9D9796B023CE1959FAFE49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787E34215666A2C5D530B18313BE247D /* Pods-GravitoApp-umbrella.h in Headers */,
+				DC6490B6392FA44A151531457E276D4E /* Pods-GravitoApp-GravitoAppUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9023A4D2C1E0B6040A7B1A3036EB950B /* Headers */ = {
+		8323287293F54C908B90D9F32BBA6AA7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F5AC097E91AA4E439F4E9DD4075569 /* Pods-GravitoApp-GravitoAppUITests-umbrella.h in Headers */,
+				A8A6802B52D144FD7E4CF808D1A4205C /* Pods-GravitoApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,31 +296,31 @@
 /* Begin PBXNativeTarget section */
 		958A4DAC0514354831F599DA3C08FC26 /* Pods-GravitoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61865391940B742A3C00C508974EE9D2 /* Build configuration list for PBXNativeTarget "Pods-GravitoApp" */;
+			buildConfigurationList = 126E9C1847D77237AD68A351DE2DFAE2 /* Build configuration list for PBXNativeTarget "Pods-GravitoApp" */;
 			buildPhases = (
-				5A023A204A19F0A89B191D750DF88FAB /* Headers */,
-				B6C3A571B8B7DD66DCD3BDCDAFAF3392 /* Sources */,
-				C956448A3A7BD978066B08358235099F /* Frameworks */,
-				B3030550A8E169192E92D23C71E1E84C /* Resources */,
+				8323287293F54C908B90D9F32BBA6AA7 /* Headers */,
+				2FF15EEB7E3934A71F08B430BFCB8ACD /* Sources */,
+				9AD323E7F555CBE5C56A65B698CC3242 /* Frameworks */,
+				5ED7064B3BCF898031870D155D3C12D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D1F1C35EED7E68D818E928FFDB87B59F /* PBXTargetDependency */,
+				F49A75F6CC7939972F06712EE66A936B /* PBXTargetDependency */,
 			);
 			name = "Pods-GravitoApp";
-			productName = "Pods-GravitoApp";
-			productReference = ED02F6FE67444BEE653BFD81F2166BB1 /* Pods_GravitoApp.framework */;
+			productName = Pods_GravitoApp;
+			productReference = ED02F6FE67444BEE653BFD81F2166BB1 /* Pods-GravitoApp */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = 2490E828D479276A7E0AFBA515DD77FA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
-				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
-				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
-				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+				41145698F7DF35B05606D01197454CFC /* Headers */,
+				7B5BEB32F210EFE38F7D58FF8A1CC2DE /* Sources */,
+				3977393A21672F0FBC6F1193739E0D15 /* Frameworks */,
+				B05597C458D738E12F170EAC515F8483 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -328,45 +328,45 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
 			productType = "com.apple.product-type.framework";
 		};
 		EFC26E389A89A321DBAA0E227FFA2E12 /* Pods-GravitoAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E62E2DE464333327086FBF650F2706 /* Build configuration list for PBXNativeTarget "Pods-GravitoAppTests" */;
+			buildConfigurationList = 8D6ADCAF76C38D7F1C72FADA628307F5 /* Build configuration list for PBXNativeTarget "Pods-GravitoAppTests" */;
 			buildPhases = (
-				09976D0591BF86A16BA060128F57475F /* Headers */,
-				47441781A9A68A14D83A2F437A9B7EC1 /* Sources */,
-				4A29F38D9CC1ACB80DAFD719B088336E /* Frameworks */,
-				7E197DB48E2D6241A5B56FBF451F0E24 /* Resources */,
+				5FFA1E7AC74845025737A3248D50B9EC /* Headers */,
+				20295EE6E2A4EDA9B3711DA5278C6910 /* Sources */,
+				34AA42E7F173712E120A011FC6F1A771 /* Frameworks */,
+				8A08DE6F6C0E2A63B7AA8D1515A4F628 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7262AB2883CA0CF27666ABCCBA26246 /* PBXTargetDependency */,
+				74F289076397A82BA2715AE7D2A8F751 /* PBXTargetDependency */,
 			);
 			name = "Pods-GravitoAppTests";
-			productName = "Pods-GravitoAppTests";
-			productReference = AF6692B5B1A64FE565F62B7F19E6C33C /* Pods_GravitoAppTests.framework */;
+			productName = Pods_GravitoAppTests;
+			productReference = AF6692B5B1A64FE565F62B7F19E6C33C /* Pods-GravitoAppTests */;
 			productType = "com.apple.product-type.framework";
 		};
 		F3FE040E12C2EBC9F041DEB249ACC22A /* Pods-GravitoApp-GravitoAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A76F1714997410A25A72B5F2B554313 /* Build configuration list for PBXNativeTarget "Pods-GravitoApp-GravitoAppUITests" */;
+			buildConfigurationList = 4B1DC3F7E727EB4A18485A960874AF7D /* Build configuration list for PBXNativeTarget "Pods-GravitoApp-GravitoAppUITests" */;
 			buildPhases = (
-				9023A4D2C1E0B6040A7B1A3036EB950B /* Headers */,
-				F9EB60E278E6E23AB0BCABDA031560A4 /* Sources */,
-				5435208FDE7997F97375E833FC60402B /* Frameworks */,
-				6CF51E6DE133171D42FB5A772360B246 /* Resources */,
+				7EAEE8440C9D9796B023CE1959FAFE49 /* Headers */,
+				6462D0F1AE0EAEFA2C45834CBB90BF60 /* Sources */,
+				A908EA0A0267636DE130A5A050631029 /* Frameworks */,
+				564101259E4C9BD2258F3A81A1D328D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5F221050ACCE808982F31E40EF14BE8D /* PBXTargetDependency */,
+				173E9DE75FE9A4C294DC0966D68F61A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-GravitoApp-GravitoAppUITests";
-			productName = "Pods-GravitoApp-GravitoAppUITests";
-			productReference = EC8C4813E7B7FE721B3D7DA430B4932A /* Pods_GravitoApp_GravitoAppUITests.framework */;
+			productName = Pods_GravitoApp_GravitoAppUITests;
+			productReference = EC8C4813E7B7FE721B3D7DA430B4932A /* Pods-GravitoApp-GravitoAppUITests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -375,19 +375,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 02F5A43DAAFCEB9E13764A8258C18ABB /* Products */;
+			productRefGroup = F5C34484A7527718AC74379F85A885ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -400,28 +400,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6CF51E6DE133171D42FB5A772360B246 /* Resources */ = {
+		564101259E4C9BD2258F3A81A1D328D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E197DB48E2D6241A5B56FBF451F0E24 /* Resources */ = {
+		5ED7064B3BCF898031870D155D3C12D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3030550A8E169192E92D23C71E1E84C /* Resources */ = {
+		8A08DE6F6C0E2A63B7AA8D1515A4F628 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+		B05597C458D738E12F170EAC515F8483 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,177 +431,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+		20295EE6E2A4EDA9B3711DA5278C6910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
-				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+				1BAF1EBEE3BD44909A5889611A9EF8D7 /* Pods-GravitoAppTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47441781A9A68A14D83A2F437A9B7EC1 /* Sources */ = {
+		2FF15EEB7E3934A71F08B430BFCB8ACD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C1499FA284E2F98C456C6F9B9C759F /* Pods-GravitoAppTests-dummy.m in Sources */,
+				0E11AAADECC12A331B798B7186B2F8F9 /* Pods-GravitoApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6C3A571B8B7DD66DCD3BDCDAFAF3392 /* Sources */ = {
+		6462D0F1AE0EAEFA2C45834CBB90BF60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089C7B5CE24BC9B389F0FADE76AE81B1 /* Pods-GravitoApp-dummy.m in Sources */,
+				70A997A3F5E99DA39972D04CB16AD494 /* Pods-GravitoApp-GravitoAppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9EB60E278E6E23AB0BCABDA031560A4 /* Sources */ = {
+		7B5BEB32F210EFE38F7D58FF8A1CC2DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED92404CBDFFEC46CD78503CCDCF61F9 /* Pods-GravitoApp-GravitoAppUITests-dummy.m in Sources */,
+				A3CEE8324948497036C4E123B21CBC59 /* SwiftyJSON.swift in Sources */,
+				5FA526557719FDBE81B1974B113CF600 /* SwiftyJSON-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F221050ACCE808982F31E40EF14BE8D /* PBXTargetDependency */ = {
+		173E9DE75FE9A4C294DC0966D68F61A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
 			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = C727B611095EB4B38DEBC4488F6CD4C3 /* PBXContainerItemProxy */;
+			targetProxy = 70FA05F5F9E4B7E0277A209DE70FFE69 /* PBXContainerItemProxy */;
 		};
-		A7262AB2883CA0CF27666ABCCBA26246 /* PBXTargetDependency */ = {
+		74F289076397A82BA2715AE7D2A8F751 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GravitoApp";
 			target = 958A4DAC0514354831F599DA3C08FC26 /* Pods-GravitoApp */;
-			targetProxy = 5F02F1C610C085634BC364688976B6E1 /* PBXContainerItemProxy */;
+			targetProxy = DF603D83E17B94FB1EDB5D9C79D0487E /* PBXContainerItemProxy */;
 		};
-		D1F1C35EED7E68D818E928FFDB87B59F /* PBXTargetDependency */ = {
+		F49A75F6CC7939972F06712EE66A936B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
 			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = BE36C5CF8820CCFA539E2714D8C4A13D /* PBXContainerItemProxy */;
+			targetProxy = 5F7CB1AFD9CC5527DFEB30245D6A57FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		009DB1577F07B2FF797B78F2D1142134 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0C9896C7563CB84B32833F4506F3096C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8702B72906CCABD6E78A2D774229CBF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D99EB6BABE11A94DFFF9E0959A299989 /* Pods-GravitoApp-GravitoAppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+		231528393B7084E13F97FF9EF804A1C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -624,6 +515,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -662,164 +554,11 @@
 			};
 			name = Debug;
 		};
-		BC75D6B4FE3C47994252497715BF0B49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD292142BA3A82EF5AECC5F5FD46FA87 /* Pods-GravitoApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BF860BE6E1E7626D03480A2DC2B1D6F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1995E3E40F0D502F0F7AEFF79FDEFE8 /* Pods-GravitoApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C219F8079A493E993F0D81DCF207ECB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED2E056FB570E8022CA455981A50A56 /* Pods-GravitoAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GravitoAppTests/Pods-GravitoAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GravitoAppTests/Pods-GravitoAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C7174D364070A800E7DE78A78B4AE6CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 452F3E221C416ACF520FAF05AA12D23E /* Pods-GravitoApp-GravitoAppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+		353D2EB3545D27343B51B709D9C0420B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -842,6 +581,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -876,13 +616,87 @@
 			};
 			name = Release;
 		};
-		F1B6E8BF520230FAB58F3D0141FB2DFD /* Debug */ = {
+		3E370868A8A04279541B8B784F44EA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED2E056FB570E8022CA455981A50A56 /* Pods-GravitoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GravitoAppTests/Pods-GravitoAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GravitoAppTests/Pods-GravitoAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A577B08DABF594763759AA811F75DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452F3E221C416ACF520FAF05AA12D23E /* Pods-GravitoApp-GravitoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71F8929125AC803918CF0ECF92273B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F80C59B071DD964823F1865053CD47C /* Pods-GravitoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -914,50 +728,232 @@
 			};
 			name = Debug;
 		};
+		A9EEBF12B0E3733A640B1F7870912751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFF6D00697F23124DBC2D33C809C20FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD292142BA3A82EF5AECC5F5FD46FA87 /* Pods-GravitoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD0E5E3EFB0F4CCE246B60BB04FAB85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6EA18642B74E761C04FA9E666E77363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1995E3E40F0D502F0F7AEFF79FDEFE8 /* Pods-GravitoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp/Pods-GravitoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5291139667C19EB1099A36152A10C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99EB6BABE11A94DFFF9E0959A299989 /* Pods-GravitoApp-GravitoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GravitoApp-GravitoAppUITests/Pods-GravitoApp-GravitoAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		126E9C1847D77237AD68A351DE2DFAE2 /* Build configuration list for PBXNativeTarget "Pods-GravitoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF6D00697F23124DBC2D33C809C20FE /* Debug */,
+				C6EA18642B74E761C04FA9E666E77363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2490E828D479276A7E0AFBA515DD77FA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0E5E3EFB0F4CCE246B60BB04FAB85B /* Debug */,
+				A9EEBF12B0E3733A640B1F7870912751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
-				ECB437504DF805BD96CAABF97400B526 /* Release */,
+				231528393B7084E13F97FF9EF804A1C0 /* Debug */,
+				353D2EB3545D27343B51B709D9C0420B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E62E2DE464333327086FBF650F2706 /* Build configuration list for PBXNativeTarget "Pods-GravitoAppTests" */ = {
+		4B1DC3F7E727EB4A18485A960874AF7D /* Build configuration list for PBXNativeTarget "Pods-GravitoApp-GravitoAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1B6E8BF520230FAB58F3D0141FB2DFD /* Debug */,
-				C219F8079A493E993F0D81DCF207ECB6 /* Release */,
+				5A577B08DABF594763759AA811F75DEC /* Debug */,
+				E5291139667C19EB1099A36152A10C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61865391940B742A3C00C508974EE9D2 /* Build configuration list for PBXNativeTarget "Pods-GravitoApp" */ = {
+		8D6ADCAF76C38D7F1C72FADA628307F5 /* Build configuration list for PBXNativeTarget "Pods-GravitoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC75D6B4FE3C47994252497715BF0B49 /* Debug */,
-				BF860BE6E1E7626D03480A2DC2B1D6F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				009DB1577F07B2FF797B78F2D1142134 /* Debug */,
-				0C9896C7563CB84B32833F4506F3096C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A76F1714997410A25A72B5F2B554313 /* Build configuration list for PBXNativeTarget "Pods-GravitoApp-GravitoAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C7174D364070A800E7DE78A78B4AE6CC /* Debug */,
-				8702B72906CCABD6E78A2D774229CBF6 /* Release */,
+				71F8929125AC803918CF0ECF92273B9B /* Debug */,
+				3E370868A8A04279541B8B784F44EA10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

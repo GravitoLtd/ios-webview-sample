@@ -47,6 +47,9 @@ class ViewController: UIViewController ,UIWebViewDelegate,WKScriptMessageHandler
                         case "start":
                             //get data from storage
                             guard let tcstring=UserDefaults.standard.string(forKey:"tcstring") else {
+                                let tcstring=""
+                                 let startjs = "window.postMessage('\(tcstring)', \"*\");true;"
+                                 webview.evaluateJavaScript(startjs, completionHandler: nil)
                                 return
                             }
                             print(tcstring)

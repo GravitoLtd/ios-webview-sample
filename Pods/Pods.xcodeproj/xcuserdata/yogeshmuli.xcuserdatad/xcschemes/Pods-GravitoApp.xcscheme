@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "1300"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3FE040E12C2EBC9F041DEB249ACC22A"
-               BuildableName = "Pods_GravitoApp_GravitoAppUITests.framework"
-               BlueprintName = "Pods-GravitoApp-GravitoAppUITests"
+               BlueprintIdentifier = "958A4DAC0514354831F599DA3C08FC26"
+               BuildableName = "Pods_GravitoApp.framework"
+               BlueprintName = "Pods-GravitoApp"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
