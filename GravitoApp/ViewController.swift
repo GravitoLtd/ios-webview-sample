@@ -32,7 +32,7 @@ class ViewController: UIViewController ,UIWebViewDelegate,WKScriptMessageHandler
     //----- FUNCTION TO LOAD HTML
     func loadTheUrl(){
         webview.configuration.userContentController.add(self, name: "jsHandler")
-        webview.load(NSURLRequest(url: NSURL(string: "https://cdn.gravito.net/webview/index.html?platform=ios")! as URL) as URLRequest)
+        webview.load(NSURLRequest(url: NSURL(string: "https://gravitocdn.blob.core.windows.net/webview/index_3.html?platform=ios")! as URL) as URLRequest)
        
     }
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
@@ -46,17 +46,29 @@ class ViewController: UIViewController ,UIWebViewDelegate,WKScriptMessageHandler
             switch event {
                         case "start":
                             //get data from storage
-                            guard let tcstring=UserDefaults.standard.string(forKey:"tcstring") else {
+                            guard let tcstring=UserDefaults.standard.object(forKey:"tcstring") else {
                                 let tcstring=""
                                  let startjs = "window.postMessage('\(tcstring)', \"*\");true;"
                                  webview.evaluateJavaScript(startjs, completionHandler: nil)
                                 return
                             }
+                
                             print(tcstring)
-                             let startjs = "window.postMessage('\(tcstring)', \"*\");true;"
-                             webview.evaluateJavaScript(startjs, completionHandler: nil)
+                var error: NSError?
+
+                let data = try?JSONSerialization.data(withJSONObject: tcstring, options: JSONSerialization.WritingOptions.prettyPrinted)
+
+                if let data = data {
+                    let json = NSString(data: data, encoding: NSUTF8StringEncoding)
+                    if let json = json {
+                        print(json)
+                        let startjs = "window.postMessage(\(json), \"*\");true;"
+                        webview.evaluateJavaScript(startjs, completionHandler: nil)
+                    }
+                }
+                             
                         case "save":
-                            let dataToStore=json["data"] as! String
+                            let dataToStore=json
                             // save this data to presisitable storage
                             UserDefaults.standard.set(dataToStore,forKey:"tcstring")
                         default: break
@@ -85,5 +97,6 @@ class ViewController: UIViewController ,UIWebViewDelegate,WKScriptMessageHandler
     }
     
 }
+
 
 
