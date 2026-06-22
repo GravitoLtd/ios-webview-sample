@@ -117,7 +117,7 @@ class ViewController: UIViewController, WKScriptMessageHandler {
     }
 
     func loadTheUrl() {
-        let urlString = "http://127.0.0.1:5502/localServer/gpp-webview.html?platform=ios&region=Uska"
+        let urlString = "http://127.0.0.1:5502/localServer/gpp-webview.html?platform=ios&region=fi"
         if let url = URL(string: urlString) {
             let request = URLRequest(url: url)
             webView.load(request)
